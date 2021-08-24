@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RightStakes.Challenge.Domain/1.0.0": {
+        "runtime": {
+          "RightStakes.Challenge.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RightStakes.Challenge.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

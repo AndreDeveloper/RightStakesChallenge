@@ -1,0 +1,8 @@
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Domain\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.deps.json
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Domain\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Domain\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.pdb
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Domain\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.csprojAssemblyReference.cache
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Domain\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Domain\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.AssemblyInfo.cs
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Domain\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Domain\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.pdb
