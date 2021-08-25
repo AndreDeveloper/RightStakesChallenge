@@ -11,3 +11,5 @@ C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Chall
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.CrossCutting.IoC.csproj.CopyComplete
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.CrossCutting.IoC.dll
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.CrossCutting.IoC.pdb
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.pdb

@@ -90,6 +90,9 @@
               },
               "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Infra.Data\\RightStakes.Challenge.Infra.Data.csproj": {
                 "projectPath": "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Infra.Data\\RightStakes.Challenge.Infra.Data.csproj"
+              },
+              "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Services.Crawler\\RightStakes.Challenge.Services.Crawler.csproj": {
+                "projectPath": "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Services.Crawler\\RightStakes.Challenge.Services.Crawler.csproj"
               }
             }
           }
@@ -196,6 +199,91 @@
         }
       }
     },
+    "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Services.Crawler\\RightStakes.Challenge.Services.Crawler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Services.Crawler\\RightStakes.Challenge.Services.Crawler.csproj",
+        "projectName": "RightStakes.Challenge.Services.Crawler",
+        "projectPath": "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Services.Crawler\\RightStakes.Challenge.Services.Crawler.csproj",
+        "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Services.Crawler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.18, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.3.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Services.WebAPI\\RightStakes.Challenge.Services.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -224,6 +312,9 @@
             "projectReferences": {
               "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Infra.CrossCutting.IoC\\RightStakes.Challenge.Infra.CrossCutting.IoC.csproj": {
                 "projectPath": "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Infra.CrossCutting.IoC\\RightStakes.Challenge.Infra.CrossCutting.IoC.csproj"
+              },
+              "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Services.Crawler\\RightStakes.Challenge.Services.Crawler.csproj": {
+                "projectPath": "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Services.Crawler\\RightStakes.Challenge.Services.Crawler.csproj"
               }
             }
           }
@@ -258,6 +349,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.0-preview1-19509-03, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.3.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -142,6 +142,13 @@ C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Chall
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.CrossCutting.IoC.pdb
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.pdb
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.pdb
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.xml
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.pdb
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\Quartz.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.xml
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RestSharp.dll

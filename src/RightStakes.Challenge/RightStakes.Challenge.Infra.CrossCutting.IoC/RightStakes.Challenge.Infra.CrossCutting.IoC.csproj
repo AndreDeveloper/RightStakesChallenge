@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\RightStakes.Challenge.Domain\RightStakes.Challenge.Domain.csproj" />
     <ProjectReference Include="..\RightStakes.Challenge.Infra.Data\RightStakes.Challenge.Infra.Data.csproj" />
+    <ProjectReference Include="..\RightStakes.Challenge.Services.Crawler\RightStakes.Challenge.Services.Crawler.csproj" />
   </ItemGroup>
 
 </Project>

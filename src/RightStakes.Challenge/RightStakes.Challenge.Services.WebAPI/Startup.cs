@@ -7,8 +7,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.PlatformAbstractions;
+using Quartz;
+using Quartz.Impl;
+using Quartz.Spi;
 using RightStakes.Challenge.Infra.CrossCutting.IoC;
 using RightStakes.Challenge.Infra.Data.Context;
+using RightStakes.Challenge.Services.Crawler;
+using RightStakes.Challenge.Services.Crawler.Factories;
+using RightStakes.Challenge.Services.Crawler.Jobs;
+using RightStakes.Challenge.Services.Crawler.Schedules;
 using RightStakes.Challenge.Services.WebAPI.Configurations;
 using System.IO;
 
@@ -61,6 +68,25 @@ namespace RightStakes.Challenge.Services.WebAPI
 
                 c.IncludeXmlComments(caminhoXmlDoc);
             });
+            #endregion
+
+
+            #region Configure Crawlers
+            // Add Quartz services
+            services.AddSingleton<IJobFactory, SingletonJobFactory>();
+            services.AddSingleton<ISchedulerFactory, StdSchedulerFactory>();
+
+            // Add our job
+            services.AddSingleton<CurrencyConvertionApiCrawlerJob>();
+            services.AddSingleton<CryptoCurrencyApiCrawlerJob>();
+            services.AddSingleton(new JobSchedule(
+                jobType: typeof(CurrencyConvertionApiCrawlerJob),
+                cronExpresion: "0/5 * * * * ?"));
+            services.AddSingleton(new JobSchedule(
+                jobType: typeof(CryptoCurrencyApiCrawlerJob),
+                cronExpresion: "0/5 * * * * ?"));
+
+            services.AddHostedService<RightStakesCrawlerHostedService>();
             #endregion
 
             RegisterServices(services);

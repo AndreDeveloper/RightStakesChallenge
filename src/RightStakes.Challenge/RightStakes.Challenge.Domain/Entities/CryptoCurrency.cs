@@ -44,13 +44,13 @@ namespace RightStakes.Challenge.Domain.Entities
 
         public decimal? AthChangePercentage { get; private set; }
 
-        public DateTime AthDate { get; private set; }
+        public DateTime? AthDate { get; private set; }
 
         public decimal? Atl { get; private set; }
 
         public decimal? AtlChangePercentage { get; private set; }
 
-        public DateTime AtlDate { get; private set; }
+        public DateTime? AtlDate { get; private set; }
 
         protected CryptoCurrency() { }
 

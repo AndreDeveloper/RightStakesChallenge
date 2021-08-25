@@ -8,7 +8,7 @@ namespace RightStakes.Challenge.Infra.Data.EntityConfiguration
     {
         public void Configure(EntityTypeBuilder<CryptoCurrency> builder)
         {
-            builder.ToTable("Bill");
+            builder.ToTable("CryptoCurrency");
 
             builder.HasKey(_ => _.Uid);
         }
