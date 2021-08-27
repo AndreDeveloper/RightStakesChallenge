@@ -75,7 +75,7 @@ namespace RightStakes.Challenge.Services.WebAPI
             });
             #endregion
 
-            
+
             #region Configure Crawlers
             // Add Quartz services
             services.AddSingleton<IJobFactory, SingletonJobFactory>();
@@ -86,10 +86,10 @@ namespace RightStakes.Challenge.Services.WebAPI
             services.AddSingleton<CryptoCurrencyApiCrawlerJob>();
             services.AddSingleton(new JobSchedule(
                 jobType: typeof(CurrencyConvertionApiCrawlerJob),
-                cronExpresion: "0/5 * * * * ?"));
+                cronExpresion: "* 0/5 * * * ?"));
             services.AddSingleton(new JobSchedule(
                 jobType: typeof(CryptoCurrencyApiCrawlerJob),
-                cronExpresion: "0/5 * * * * ?"));
+                cronExpresion: "* 0/5 * * * ?"));
 
             services.AddHostedService<RightStakesCrawlerHostedService>();
             #endregion

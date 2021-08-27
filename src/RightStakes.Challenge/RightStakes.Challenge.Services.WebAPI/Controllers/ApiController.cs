@@ -7,25 +7,11 @@ namespace RightStakes.Challenge.Services.WebAPI.Controllers
     {
         protected new IActionResult Response(object result = null)
         {
-            if (IsValidOperation())
+            return Ok(new
             {
-                return Ok(new
-                {
-                    success = true,
-                    data = result
-                });
-            }
-
-            return BadRequest(new
-            {
-                success = false,
-                //errors = _notifications.GetNotifications().Select(n => n.Value)
+                success = true,
+                data = result
             });
-        }
-
-        protected bool IsValidOperation()
-        {
-            return true;
         }
     }
 }

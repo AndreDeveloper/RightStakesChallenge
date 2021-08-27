@@ -52,6 +52,8 @@ namespace RightStakes.Challenge.Domain.Entities
 
         public DateTime? AtlDate { get; private set; }
 
+        public string Currency { get; private set; }
+
         protected CryptoCurrency() { }
 
         public CryptoCurrency(
@@ -105,6 +107,12 @@ namespace RightStakes.Challenge.Domain.Entities
             Atl = atl;
             AtlChangePercentage = atlChangePercentage;
             AtlDate = atlDate;
+            Currency = "USD";
+        }
+
+        public void SetCurrency(string currency)
+        {
+            Currency = currency;
         }
 
         public bool HasChanged(CryptoCurrency cryptoCurrency)
@@ -138,6 +146,7 @@ namespace RightStakes.Challenge.Domain.Entities
             Atl = cryptoCurrency.Atl;
             AtlChangePercentage = cryptoCurrency.AtlChangePercentage;
             AtlDate = cryptoCurrency.AtlDate;
+            Currency = cryptoCurrency.Currency;
         }
     }
 }

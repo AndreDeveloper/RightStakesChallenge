@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RightStakes.Challenge.Infra.Data.Context;
 
 namespace RightStakes.Challenge.Infra.Data.Migrations
 {
     [DbContext(typeof(RightStakesContext))]
-    partial class RightStakesContextModelSnapshot : ModelSnapshot
+    [Migration("20210827210110_03")]
+    partial class _03
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

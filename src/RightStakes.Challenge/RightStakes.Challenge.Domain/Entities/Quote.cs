@@ -28,7 +28,7 @@ namespace RightStakes.Challenge.Domain.Entities
         public bool HasChanged(Quote quote)
         {
             //Just considering id and currentprice, although new especific rules can be aplyied here
-            return Name == quote.Name && Value != quote.Value;
+            return Name == quote.Name && Math.Round(Value.GetValueOrDefault(), 2) != Math.Round(quote.Value.GetValueOrDefault(), 2);
         }
     }
 }
