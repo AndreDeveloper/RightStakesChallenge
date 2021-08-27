@@ -31,7 +31,7 @@ namespace RightStakes.Challenge.Infra.Data.Migrations
                     b.Property<decimal?>("AthChangePercentage")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<DateTime>("AthDate")
+                    b.Property<DateTime?>("AthDate")
                         .HasColumnType("datetime2");
 
                     b.Property<decimal?>("Atl")
@@ -40,7 +40,7 @@ namespace RightStakes.Challenge.Infra.Data.Migrations
                     b.Property<decimal?>("AtlChangePercentage")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<DateTime>("AtlDate")
+                    b.Property<DateTime?>("AtlDate")
                         .HasColumnType("datetime2");
 
                     b.Property<decimal?>("CirculatingSupply")
@@ -120,7 +120,7 @@ namespace RightStakes.Challenge.Infra.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Value")
+                    b.Property<decimal?>("Value")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Uid");

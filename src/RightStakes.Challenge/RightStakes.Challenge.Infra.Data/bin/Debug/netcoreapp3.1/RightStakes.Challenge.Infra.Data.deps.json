@@ -16,6 +16,14 @@
           "RightStakes.Challenge.Infra.Data.dll": {}
         }
       },
+      "MediatR/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -118,20 +126,20 @@
           }
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.18": {
+      "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.18"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "3.1.18.0",
-            "fileVersion": "3.100.1821.36403"
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         }
       },
       "Microsoft.Extensions.Caching.Memory/3.1.18": {
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.18",
+          "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.18",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.18",
           "Microsoft.Extensions.Options": "3.1.18"
@@ -145,7 +153,7 @@
       },
       "Microsoft.Extensions.Configuration/3.1.18": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.18"
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
@@ -154,14 +162,14 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.18": {
+      "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.18"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "3.1.18.0",
-            "fileVersion": "3.100.1821.36403"
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         }
       },
@@ -220,7 +228,7 @@
       "Microsoft.Extensions.Options/3.1.18": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.18",
-          "Microsoft.Extensions.Primitives": "3.1.18"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
@@ -229,11 +237,11 @@
           }
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.18": {
+      "Microsoft.Extensions.Primitives/5.0.0": {
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "3.1.18.0",
-            "fileVersion": "3.100.1821.36403"
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         }
       },
@@ -1017,6 +1025,11 @@
         }
       },
       "RightStakes.Challenge.Domain/1.0.0": {
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
+        },
         "runtime": {
           "RightStakes.Challenge.Domain.dll": {}
         }
@@ -1028,6 +1041,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MediatR/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "path": "mediatr/9.0.0",
+      "hashPath": "mediatr.9.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1092,12 +1112,12 @@
       "path": "microsoft.entityframeworkcore.sqlserver/3.1.18",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.3.1.18.nupkg.sha512"
     },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.18": {
+    "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1uCazaadkt2RnAfYK7wgRacqBhT/EWvKumvPF+XlXHheFMabVExqrpNAhiObXfko6rpwo9kdHDBOmdZYCplKyw==",
-      "path": "microsoft.extensions.caching.abstractions/3.1.18",
-      "hashPath": "microsoft.extensions.caching.abstractions.3.1.18.nupkg.sha512"
+      "sha512": "sha512-bu8As90/SBAouMZ6fJ+qRNo1X+KgHGrVueFhhYi+E5WqEhcnp2HoWRFnMzXQ6g4RdZbvPowFerSbKNH4Dtg5yg==",
+      "path": "microsoft.extensions.caching.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Memory/3.1.18": {
       "type": "package",
@@ -1113,12 +1133,12 @@
       "path": "microsoft.extensions.configuration/3.1.18",
       "hashPath": "microsoft.extensions.configuration.3.1.18.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.18": {
+    "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ID1/qQDGowofEfOoNcEkerRDy3x5FMguDxDEsl4DVROaI/qLa/oWCqUljIDWMuM1GUDNhucSrTMZ8/k9VyOHAg==",
-      "path": "microsoft.extensions.configuration.abstractions/3.1.18",
-      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.18.nupkg.sha512"
+      "sha512": "sha512-ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
+      "path": "microsoft.extensions.configuration.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Binder/3.1.18": {
       "type": "package",
@@ -1162,12 +1182,12 @@
       "path": "microsoft.extensions.options/3.1.18",
       "hashPath": "microsoft.extensions.options.3.1.18.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/3.1.18": {
+    "Microsoft.Extensions.Primitives/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QFvxAK1seL0TeCeZcsld3X8/xPqH4xuMwqzbEkgQK8ChFwM9c8tUHK6JZG7H47UgjaucwV2y8G9IWlX051oOkw==",
-      "path": "microsoft.extensions.primitives/3.1.18",
-      "hashPath": "microsoft.extensions.primitives.3.1.18.nupkg.sha512"
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
     },
     "Microsoft.Identity.Client/3.0.8": {
       "type": "package",

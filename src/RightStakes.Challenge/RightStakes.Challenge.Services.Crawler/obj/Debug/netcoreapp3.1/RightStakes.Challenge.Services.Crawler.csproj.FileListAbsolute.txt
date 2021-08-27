@@ -1,8 +1,13 @@
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.deps.json
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.pdb
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.pdb
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.csprojAssemblyReference.cache
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.AssemblyInfoInputs.cache
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.AssemblyInfo.cs
-C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.pdb
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.csproj.CopyComplete
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.dll
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.Crawler.pdb
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.Crawler\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.pdb

@@ -1,11 +1,11 @@
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.deps.json
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.dll
-C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.AssemblyInfoInputs.cache
-C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.AssemblyInfo.cs
-C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.csprojAssemblyReference.cache
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.pdb
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.dll
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.pdb
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.csprojAssemblyReference.cache
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.AssemblyInfoInputs.cache
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.AssemblyInfo.cs
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.csproj.CopyComplete
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.dll
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Infra.Data\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.pdb

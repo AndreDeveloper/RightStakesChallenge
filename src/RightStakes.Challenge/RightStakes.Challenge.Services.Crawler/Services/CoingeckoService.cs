@@ -36,5 +36,18 @@ namespace RightStakes.Challenge.Services.Crawler.Services
                 return await _client.GetAsync<List<CryptoCurrencyModel>>(request);
             });
         }
+
+        public void Dispose()
+        {
+            GC.SuppressFinalize(this);
+        }
+
+        public static class CoingeckoServiceFactory
+        {
+            public static CoingeckoService Create(IConfiguration configuration)
+            {
+                return new CoingeckoService(configuration);
+            }
+        }
     }
 }

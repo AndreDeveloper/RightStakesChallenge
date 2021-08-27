@@ -75,10 +75,10 @@ namespace RightStakes.Challenge.Domain.Entities
             decimal? maxSupply,
             decimal? ath,
             decimal? athChangePercentage,
-            DateTime athDate,
+            DateTime? athDate,
             decimal? atl,
             decimal? atlChangePercentage,
-            DateTime atlDate
+            DateTime? atlDate
             )
         {
             Id = id;
@@ -105,6 +105,39 @@ namespace RightStakes.Challenge.Domain.Entities
             Atl = atl;
             AtlChangePercentage = atlChangePercentage;
             AtlDate = atlDate;
+        }
+
+        public bool HasChanged(CryptoCurrency cryptoCurrency)
+        {
+            //Just considering id and currentprice, although new especific rules can be aplyied here
+            return Id == cryptoCurrency.Id && CurrentPrice != cryptoCurrency.CurrentPrice;
+        }
+
+        public void Update(CryptoCurrency cryptoCurrency)
+        {
+            Symbol = cryptoCurrency.Symbol;
+            Name = cryptoCurrency.Name;
+            Image = cryptoCurrency.Image;
+            CurrentPrice = cryptoCurrency.CurrentPrice;
+            MarketCap = cryptoCurrency.MarketCap;
+            MarketCapRank = cryptoCurrency.MarketCapRank;
+            FullyDilutedValuation = cryptoCurrency.FullyDilutedValuation;
+            TotalVolume = cryptoCurrency.TotalVolume;
+            High24h = cryptoCurrency.High24h;
+            Low24h = cryptoCurrency.Low24h;
+            PriceChange24h = cryptoCurrency.PriceChange24h;
+            PriceChangePercentage24h = cryptoCurrency.PriceChangePercentage24h;
+            MarketCapChange24h = cryptoCurrency.MarketCapChange24h;
+            MarketCapChangePercentage24h = cryptoCurrency.MarketCapChangePercentage24h;
+            CirculatingSupply = cryptoCurrency.CirculatingSupply;
+            TotalSupply = cryptoCurrency.TotalSupply;
+            MaxSupply = cryptoCurrency.MaxSupply;
+            Ath = cryptoCurrency.Ath;
+            AthChangePercentage = cryptoCurrency.AthChangePercentage;
+            AthDate = cryptoCurrency.AthDate;
+            Atl = cryptoCurrency.Atl;
+            AtlChangePercentage = cryptoCurrency.AtlChangePercentage;
+            AtlDate = cryptoCurrency.AtlDate;
         }
     }
 }

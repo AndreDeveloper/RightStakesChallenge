@@ -40,6 +40,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -224,7 +238,14 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Domain\\RightStakes.Challenge.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Domain\\RightStakes.Challenge.Domain.csproj"
+              },
+              "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Infra.Data\\RightStakes.Challenge.Infra.Data.csproj": {
+                "projectPath": "C:\\Projetos\\Andre\\DesafioRightStakes\\src\\RightStakes.Challenge\\RightStakes.Challenge.Infra.Data\\RightStakes.Challenge.Infra.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -236,6 +257,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"

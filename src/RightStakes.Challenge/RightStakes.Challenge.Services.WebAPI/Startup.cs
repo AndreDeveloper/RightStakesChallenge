@@ -1,3 +1,4 @@
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -34,7 +35,7 @@ namespace RightStakes.Challenge.Services.WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<RightStakesContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddMvc(options =>
             {
@@ -42,6 +43,10 @@ namespace RightStakes.Challenge.Services.WebAPI
                 options.UseCentralRoutePrefix(new RouteAttribute("api/v1"));
             })
                 .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+
+            services.AddAutoMapperSetup();
+            services.AddMediatR(typeof(Startup));
+            services.AddMemoryCache();
 
             #region Config Swagger
             services.AddSwaggerGen(c =>
@@ -70,7 +75,7 @@ namespace RightStakes.Challenge.Services.WebAPI
             });
             #endregion
 
-
+            
             #region Configure Crawlers
             // Add Quartz services
             services.AddSingleton<IJobFactory, SingletonJobFactory>();

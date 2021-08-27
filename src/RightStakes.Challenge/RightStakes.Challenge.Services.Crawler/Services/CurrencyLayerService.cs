@@ -37,5 +37,18 @@ namespace RightStakes.Challenge.Services.Crawler.Services
                 return await _client.GetAsync<CurrencyConvertionModel>(request);
             });
         }
+
+        public void Dispose()
+        {
+            GC.SuppressFinalize(this);
+        }
+
+        public static class CurrencyLayerServiceFactory
+        {
+            public static CurrencyLayerService Create(IConfiguration configuration)
+            {
+                return new CurrencyLayerService(configuration);
+            }
+        }
     }
 }

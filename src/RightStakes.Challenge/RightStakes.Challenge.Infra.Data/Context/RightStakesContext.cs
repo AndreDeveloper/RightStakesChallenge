@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using RightStakes.Challenge.Domain.Entities;
 using RightStakes.Challenge.Infra.Data.EntityConfiguration;
 
@@ -11,6 +12,7 @@ namespace RightStakes.Challenge.Infra.Data.Context
 
         }
 
+
         public DbSet<CryptoCurrency> CryptoCurrencies { get; set; }
 
         public DbSet<Quote> Quotes { get; set; }
@@ -21,6 +23,17 @@ namespace RightStakes.Challenge.Infra.Data.Context
             modelBuilder.ApplyConfiguration(new QuoteConfiguration());
 
             base.OnModelCreating(modelBuilder);
+        }
+
+        public static class RightStakesContextFactory
+        {
+            public static RightStakesContext Create(IConfiguration configuration)
+            {
+                var optionsBuilder = new DbContextOptionsBuilder<RightStakesContext>();
+                optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+
+                return new RightStakesContext(optionsBuilder.Options);
+            }
         }
     }
 }
