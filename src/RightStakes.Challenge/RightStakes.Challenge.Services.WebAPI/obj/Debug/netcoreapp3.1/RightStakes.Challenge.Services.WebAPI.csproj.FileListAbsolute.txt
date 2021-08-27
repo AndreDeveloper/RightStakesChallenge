@@ -146,8 +146,6 @@ C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Chall
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Domain.pdb
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\RightStakes.Challenge.Infra.Data.pdb
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.csprojAssemblyReference.cache
-C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.AssemblyInfoInputs.cache
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.AssemblyInfo.cs
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.RazorTargetAssemblyInfo.cache
@@ -156,3 +154,6 @@ C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Chall
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\RightStakes.Challenge.Services.WebAPI.StaticWebAssets.xml
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.dll
 C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.pdb
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\bin\Debug\netcoreapp3.1\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\Andre\DesafioRightStakes\src\RightStakes.Challenge\RightStakes.Challenge.Services.WebAPI\obj\Debug\netcoreapp3.1\RightStakes.Challenge.Services.WebAPI.MvcApplicationPartsAssemblyInfo.cache

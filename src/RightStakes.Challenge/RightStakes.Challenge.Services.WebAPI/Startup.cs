@@ -18,6 +18,7 @@ using RightStakes.Challenge.Services.Crawler.Factories;
 using RightStakes.Challenge.Services.Crawler.Jobs;
 using RightStakes.Challenge.Services.Crawler.Schedules;
 using RightStakes.Challenge.Services.WebAPI.Configurations;
+using RightStakes.Challenge.Services.WebAPI.Hubs;
 using System.IO;
 
 namespace RightStakes.Challenge.Services.WebAPI
@@ -47,6 +48,7 @@ namespace RightStakes.Challenge.Services.WebAPI
             services.AddAutoMapperSetup();
             services.AddMediatR(typeof(Startup));
             services.AddMemoryCache();
+            services.AddSignalR();
 
             #region Config Swagger
             services.AddSwaggerGen(c =>
@@ -86,10 +88,10 @@ namespace RightStakes.Challenge.Services.WebAPI
             services.AddSingleton<CryptoCurrencyApiCrawlerJob>();
             services.AddSingleton(new JobSchedule(
                 jobType: typeof(CurrencyConvertionApiCrawlerJob),
-                cronExpresion: "* 0/5 * * * ?"));
+                cronExpresion: "0/10 * * * * ?"));
             services.AddSingleton(new JobSchedule(
                 jobType: typeof(CryptoCurrencyApiCrawlerJob),
-                cronExpresion: "* 0/5 * * * ?"));
+                cronExpresion: "0/10 * * * * ?"));
 
             services.AddHostedService<RightStakesCrawlerHostedService>();
             #endregion
@@ -126,6 +128,7 @@ namespace RightStakes.Challenge.Services.WebAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHub<CurrencyHub>("/currencyhub");
             });
         }
 
